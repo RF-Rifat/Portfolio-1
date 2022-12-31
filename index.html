@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="icon" type="image/icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/c775ac9d8b.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <form class="color-picker" action="">
+        <fieldset>
+            <legend class="visually-hidden">Pick a color scheme</legend>
+            <label for="dark" class="visually-hidden">Dark theme</label>
+            <input type="radio" id="dark" name="theme">
+            <label for="light" class="visually-hidden">Light</label>
+            <input type="radio" name="theme" id="light" checked>
+    
+            <label for="pink" class="visually-hidden">Pink theme</label>
+            <input type="radio" id="pink" name="theme">
+    
+            <label for="blue" class="visually-hidden">Blue theme</label>
+            <input type="radio" id="blue" name="theme">
+    
+            <label for="green" class="visually-hidden">Green theme</label>
+            <input type="radio" id="green" name="theme">
+
+        </fieldset>
+    </form>
+    <div class="home-page" id="Home">
+        <header>
+            <nav class="navbar">
+                <div class="icon"><a href="#Home"><i class="fa-solid fa-user"></i></a></div>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Service">Service</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+                
+                <h2 class="logo">Port<span>folio</span></h2>
+            </nav>
+        </header>
+        <!-- navbar end -->
+        <main class="mid">
+            <div class="sub-mid">
+                <h1>I'm <span>Rifadul Islam</span></h1>
+                <h3 class="heading-1">Freelancer and Web Designer.</h3>
+                <h5>I build interaction website that run across platforms & devices.Helping companies to reach their goal by connecting all dots between Design & Code</h5>
+                <a href="#Contact"><button class="custom-btn btn-1">Hire Me<div class="dot"></div></button></a>
+            </div>
+            <div class="photo">
+                <img src="photos/christian-buehner-unsplash.png" alt="">
+                <div class="photo-cover">
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- about page start -->
+        <div class="About-page" id="About">
+            <div class="about-img">
+                <img src="photos/mikhail-unsplash.jpg" alt="photo">
+            </div>
+            <section class="About-page-section">
+                <h1 class="About-page-heading">About <span> Me</span><hr class="hr"></h1>
+                <p class="About-page-para">I am a web designer.I can provide responsive interactive website with web animation.I also provide clean code and pixel perfect design.A responsive design makes your website accessible to all users, regardless of their device.</p>
+            </section>
+        </div>
+        <!-- skills page start -->
+        <div class="Skills-page" id="Skills">
+            <h1>My Skill</h1>
+            <section class="skill-div">
+                <h2>HTMl</h2>
+                <div>
+                    <div class="skill-div-1"></div>
+                </div>
+                <h2>CSS</h2>
+                <div>
+                    <div class="skill-div-2"></div>
+                </div>
+                <h2>JAVASCRIPT</h2>
+                <div>
+                    <div class="skill-div-3"></div>
+                </div>
+                <h2>BOOTSTRAP</h2>
+                <div>
+                    <div class="skill-div-4"></div>
+                </div>
+                <h2>TAILWIND CSS</h2>
+                <div>
+                    <div class="skill-div-5"></div>
+                </div>
+            </section>
+            <div class="work-details">
+                <p>6+ <br>Partners</p>
+                <p>11+ <br>Projects</p>
+                <p>15+ <br>Data Entry <br> Projects</p>
+                <p>12+ <br>Email <br> Signature</p>
+            </div>
+        </div>
+    <!-- service page start -->
+    <div class="Service-page" id="Service">
+        <div></div>
+        <h1>My Price <hr style="width: 12%;"></h1>
+        <section class="price-container">
+            <div class="price-container-1">
+                <div class="content-1">
+                    <div>Basic</div>
+                    <div>Web Design</div>
+                    <div>3 Days Delivery</div>
+                    <div>US$-155</div>
+                    <div>1-2 Page</div>
+                    <div><button>Sign Up</button></div>
+                </div>
+            </div>
+            <div class="price-container-2">
+                <div class="content-2">
+                    <div>Standard <hr></div>
+                    <div>Web Design</div>
+                    <div>5 Days Delivery</div>
+                    <div>US$-200</div>
+                    <div>3-4 Page</div>
+                    <div><button>Sign Up</button></div>
+                </div>
+            </div>
+            <div class="price-container-3">
+                <div class="content-3">
+                    <div>Premium <hr></div>
+                    <div>Web Design</div>
+                    <div>7 Days Delivery</div>
+                    <div>US$-250</div>
+                    <div>6-7 Page</div>
+                    <div><button>Sign Up</button></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- contact page start -->
+    <div class="Contact-page" id="Contact">
+        <section class="contact-section">
+            <div>
+                <h1>Contact Me</h1>
+                <div><i class="fa-solid fa-location-dot"></i>  Dinajpur, Chawliapotty</div>
+                <div><i class="fa-solid fa-phone"></i>  +88017707-03939</div>
+                <div><i class="fa-solid fa-envelope"></i> Email: rfriaft6344gmail.com</div>
+            </div>
+            <div class="contact-form">
+                <h3>For More Details Contact Me Down Bellow</h3>
+                <input type="text" name="name" value="Name"><br>
+                <input type="text" name="name" value="Email"><br>
+                <input type="text" name="name" value="Subject"><br>
+                <input type="text" name="name" value="Massage">
+            </div>
+            <div class="end">
+                <div class="social" id="contact">
+                    <a href="https://www.facebook.com/rfrifat6344" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+                <p class="end">CopyRight By Rifadul Islam</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
